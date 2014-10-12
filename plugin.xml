@@ -23,20 +23,21 @@
       </feature>
     </config-file>
 
+    <!-- Cordova Files -->
     <header-file src="src/ios/PayPalMobileCordovaPlugin.h" />
     <source-file src="src/ios/PayPalMobileCordovaPlugin.m" />
 
     <!-- PayPay iOS SDK -->
-    <source-file src="src/ios/PayPalMobile/libPayPalMobile.a" framework="true" target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalConfiguration.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalFuturePaymentViewController.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalMobile.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalOAuthScopes.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalPayment.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalPaymentViewController.h"  target-dir="ios"/>
-    <header-file src="src/ios/PayPalMobile/PayPalProfileSharingViewController.h"  target-dir="ios"/>
+    <source-file src="src/ios/PayPalMobile/libPayPalMobile.a" framework="true"/>
+    <header-file src="src/ios/PayPalMobile/PayPalConfiguration.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalFuturePaymentViewController.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalMobile.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalOAuthScopes.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalPayment.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalPaymentViewController.h"/>
+    <header-file src="src/ios/PayPalMobile/PayPalProfileSharingViewController.h"/>
 
-
+    <!-- Frameworks -->
     <framework src="AVFoundation.framework" />
     <framework src="SystemConfiguration.framework" />
     <framework src="MessageUI.framework" />
