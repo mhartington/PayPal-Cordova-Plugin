@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Copyright (c) 2014 PayPal. All rights reserved. -->
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:rim="http://www.blackberry.com/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" id="com.paypal.cordova.mobilesdk" version="2.0.2">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.paypal.cordova.mobilesdk"
+        version="2.0.2">
+
   <name>PayPalMobile</name>
   <description>This plugin allows to add to add PayPal Payments to your application using PayPal Mobile SDK Native library</description>
   <license>BSD License, see LICENSE.md for details</license>
   <engines>
-    <engine name="cordova" version="&gt;=3.0.0" />
+    <engine name="cordova" version=">=3.0.0" />
   </engines>
 
 
@@ -28,7 +33,7 @@
     <source-file src="src/ios/PayPalMobileCordovaPlugin.m" />
 
     <!-- PayPay iOS SDK -->
-    <source-file src="src/ios/PayPalMobile/libPayPalMobile.a" framework="true"/>
+    <source-file src="src/ios/PayPalMobile/libPayPalMobile.a"/>
     <header-file src="src/ios/PayPalMobile/PayPalConfiguration.h"/>
     <header-file src="src/ios/PayPalMobile/PayPalFuturePaymentViewController.h"/>
     <header-file src="src/ios/PayPalMobile/PayPalMobile.h"/>
